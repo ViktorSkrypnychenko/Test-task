@@ -1,0 +1,111 @@
+body{
+    width: 800px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+button{
+    width: 100px;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+select{
+    width: 177px;
+    height: 21px;
+}
+.authorsList{
+    overflow: hidden scroll;
+    height: 70px;
+}
+/* input */
+#surname{
+    margin: 5px 0 5px 76px;;
+}
+#name{
+    margin: 5px 0 5px 98px;
+}
+#middlename{
+    margin: 5px 0 5px 49px;
+}
+#birth{
+    margin: 5px 0 10px 52px;
+}
+#selectAuthors{
+    margin: 5px 0 5px 30px;
+}
+#bookName{
+    margin: 5px 0 5px 54px;
+}
+#genre{
+    margin: 5px 0 5px 45px;
+}
+#pages{
+    margin: 5px 32px 10px 85px
+}
+#searchInput{
+    margin: 0 0 10px 8px;;
+}
+#inputAddGenre{
+    margin: 0 18px 10px;
+}
+.block{
+    display: inline-flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    background-color: rgba(209, 234, 236, 0.507);
+}
+.genreDiv{
+    margin: 0 12px 10px 0;
+    
+}
+.authorDiv{
+    background-color: rgba(209, 234, 236, 0.507);
+    margin: 0 0 19px;
+    padding: 10px 0;
+}
+.forAuthor{
+    padding-top: 10px;
+}
+#showMyBook{
+    background-color: rgba(209, 234, 236, 0.507);
+}
+.myForm1{
+    margin-left: 26px;
+}
+.newBookDiv{
+    margin-left: 26px;
+}
+#indexAuthor{
+    font-weight: bold;
+}
+#addOrChange{
+    font-weight: bold;
+}
+#newBook{
+ height: 30px;
+ margin-top: 5px;   
+}
+#alarmSearchGenre{
+    margin-top: 5px;
+    height: 30px;
+}
+@media(max-width:800px){
+    body{
+        width: 450px;
+    }
+    .block{
+        display: block;
+    }
+    .myForm2{
+        margin-left: 26px;
+               
+    }
+    .genreDiv{
+        margin-left: 26px;
+    }
+}
+     
+         

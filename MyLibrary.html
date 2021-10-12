@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="myCss.css">
+    <title>MyLibrary</title>
+</head>
+<body>
+    <h1>My library</h1>
+    <div id="displayAuthors" class="authorsList">
+       
+    </div>
+    <hr>
+    <div id="showMyBook"></div>
+    <hr>
+    
+<div class="block"> 
+    <form  class="myForm1" >
+        <div id="newAuthor" >
+            <div ><p id="indexAuthor"> Add author</p></div>
+            <div>
+                 
+                <div  class="authorInput"></div> 
+                 Surname<input type="text" name="" id="surname"><br>
+                 <div id="validSurname"></div>
+                  Name<input type="text" name="" id="name" ><br>
+                 <div id="validName"></div>
+                 Middle name<input type="text" name="" id="middlename"><br>
+                 <div id="validMiddlename"></div>
+                 Date of Birth<input type="text" name="" id="birth" placeholder="yyyy-mm-dd"><br>
+                 <div id="validBirth"></div>
+             </div>
+            <button type="submit "  id="addAuthorBtn" >Add</button>
+            <button type="submit" id="save" hidden>Save</button>
+            <button type="submit" id="cansell">Cancell</button>
+        </div>
+        
+    </form>
+    <form  class="myForm2" >
+        <div >
+            <p id="addOrChange"> Add book</p>       
+             <div>
+                 Choose author:<select name="" id="selectAuthors"  ></select><br>
+                 Book name:<input type="text" name="" id="bookName"><br>
+                 <div id="validBookName"></div>
+                 Select genre:<select name="" id="genre"></select><br>
+                  Pages: <input type="text" id="pages"><br>
+                  <div id="validPages"></div>
+                 <div>
+                     <button type="submit" id="addBook">Add</button>
+                     <button type="submit" id="cansellMyBook">Cancell</button>
+                 </div>
+             </div>
+
+         </div>
+    </form>
+</div>  
+    <br><hr>
+<div class="block"> 
+    <div class="newBookDiv">
+        <div id="newBook"></div>
+         <div>
+             Search book name<input type="text" id="searchInput">
+         </div>
+         <div>
+             <button type="submit" id="search"> Search</button>
+             <button type="submit" id="changeBook" hidden> changeBook</button>
+             <button type="submit" id="deleteBook">Delete book</button>
+         </div>
+    </div>
+       
+    <div class="genreDiv">
+        <div id="alarmSearchGenre"></div>
+        <div>
+            Add/delete genre <input type="text" id="inputAddGenre">
+        </div>
+        <div>
+            <button type="submit" id="addGenre">Add genre</button>
+            <button type="submit" id="deleteGenre">Delete genre</button>
+        </div>
+    </div>
+    
+</div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
